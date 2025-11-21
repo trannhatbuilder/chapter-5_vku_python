@@ -1,0 +1,10 @@
+import numpy as np
+original_array = np.array([[1,2,3],[4,5,6],[7,8,9]])
+new_array1 = np.insert(original_array,0,[10,10,10],axis=0)
+new_array2 = np.insert(original_array,3,[10,10,10],axis=0)
+new_array3 = np.insert(original_array,0,[10,10,10],axis=1)
+new_array4 = np.insert(original_array,3,[10,10,10],axis=1)
+print(new_array1)
+print(new_array2)
+print(new_array3)
+print(new_array4)
